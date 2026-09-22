@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Application Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+
+<h2>Job Application Tracker</h2>
+<input id="companyInput" type="text" placeholder="Company">
+<input id="positionInput" type="text" placeholder="Position">
+<select id="statusInput">
+    <option value="">Choose Status</option>
+    <option value="Interested">Interested</option>
+    <option value="Applied">Applied</option>
+    <option value="Interview">Interview</option>
+    <option value="Offer">Offer</option>
+    <option value="Rejected">Rejected</option>
+</select>
+
+<button id="addJobButton">Add Job</button>
+<input type="text" id="searchInput" placeholders="Search applications..." />
+<select id="statusFilter">
+    <option value="all"> All Statuses</option>
+    <option value="Applied"> Applied</option>
+    <option value="Interview"> Interview</option>
+    <option value="Rejected"> Rejected</option>
+</select>
+
+<p id="jobCount"Total Applications: 0</p>
+<div id="jobList">
+</div>
+
+<script src="script.js"></script>
+</div>
+</body>
+</html>
